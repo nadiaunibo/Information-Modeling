@@ -1,0 +1,239 @@
+body {
+	font-family: "Chronicle Display", serif;
+	font-size: 22px;
+	line-height: 1.5em;
+	margin: 0 auto;
+	padding: 10px 20px 10px 20px;
+	max-width: 750px;
+}
+
+
+h1 {
+	font-family: "Chronicle Display", serif;
+	font-size: 47px;
+	line-height: 55px;
+
+}
+
+h2 {
+    font-family: Verdana, sans-serif;
+    font-size: 20px;
+    margin-top: 42px;
+}
+
+h3 {
+    font-family: "Titillium Web";
+    font-size: 16px;
+    margin-top: 1px;
+    margin-bottom: 1px;
+}
+
+.subtitle {
+	font-family: Verdana, sans-serif;
+    font-size: 20px;
+}
+
+.date {
+    font-family: "Titillium Web";
+    font-size: 18px;
+    text-decoration: underline;
+    margin-bottom: 15px;
+}
+
+.bigger_line {
+    border: 4.5px solid #000;
+    margin-bottom: 0%;
+    margin-top: 40px;
+}
+
+.smaller_line {
+    border: 1px solid #cfcccc;
+    margin-top: 1px;
+}
+
+.bigger_line_songs {
+    border: 4.5px solid #000;
+    margin-bottom: 0%;
+    margin-top: 20px;
+}
+
+.song_descriptions {
+    font-size: 15px;
+    margin-bottom: 35px;
+    margin-top: 15px;
+}
+
+.finishing_line {
+    border: 1px solid #cfcccc;
+    margin-top: 30px;
+    margin-bottom: 70px;
+}
+
+table {
+	font-family: "Titillium Web";
+    font-size: 17px;
+    border-collapse: collapse;
+    width: 100%;
+    text-align: left;
+}
+
+td {
+    border-bottom: 1px solid #cfcccc;
+    text-align: left;
+    padding: 15px;
+
+}
+
+.column_1 {
+    width: 10%;
+    padding-left: 0%;
+}
+
+.column_2 {
+    width: 90%;
+}
+
+img {
+    max-width: 100%;
+    margin-top: 70px;
+}
+
+.photo_caption {
+    font-family: "Titillium Web";
+    font-size: 17px;
+    margin-top: 0px;
+}
+
+.first_paragraph {
+    margin-top: 50px;
+}
+
+.first_paragraph::first-letter {
+    font-size: 85px;
+    float: left;
+    position: relative;
+    line-height: 0.8;
+    padding-right: 13px;
+}
+
+p {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.5;
+}
+
+
+
+/* footer */
+
+    #footer p {
+        font-family: "Titillium Web";
+        font-size: 10px;
+    }
+
+    #footer {
+        display: grid;
+        grid-template-columns: 5fr 1fr 35fr;
+    }
+
+    /* left */
+
+       #left {
+            grid-column: 1 / 2;
+            margin-top: 20px;
+       }
+
+       #comments_count {
+            font-size: 50px;
+            display: flex;
+            flex-direction: column;          
+       }
+
+       #left p {
+            line-height: 1.2;
+       }       
+
+    /* left */
+
+    /* center */
+
+        #vertical_line {
+                grid-column: 2 / 3;
+                border-left: solid 2px #cfcccc;
+                height: 96px;
+                float: center;
+                position: relative;
+                margin-top: 20px;
+            }
+
+    /* center */
+        
+    /* right */
+
+        #right {
+            grid-column: 3 / 4;
+        }
+
+        #hr1 {
+            border: 4.5px solid #000;
+            margin-top: 20px;
+        }
+
+        #hr2 {
+            border: 1px solid #cfcccc;
+            margin-bottom: 17px;
+        }
+
+        #share, #hr2 {
+            margin: 0;
+            padding: 0;
+        }
+
+        #tags {
+            margin-top: 30px;
+        }
+
+    /* right */
+
+    .empty_space {
+        height: 200px;
+    }
+
+/* footer */
+
+
+
+/* fonts */
+
+    @font-face {
+        font-family: "Titillium Web";
+        font-weight: 700;
+        src: url("fonts/TitilliumWeb-Bold.ttf") format("truetype");
+    }
+
+    @font-face {
+        font-family: "Chronicle Display";
+        font-weight: 400;
+        src: url("fonts/chronicle_display_roman.otf") format("opentype");
+    }
+
+    @font-face {
+        font-family: "Chronicle Display";
+        font-weight: 400;
+        font-style: italic;
+        src: url("fonts/chronicle_display_italic.otf") format("opentype");
+    }
+
+    @font-face {
+        font-family: "Chronicle Display";
+        font-weight: 600;
+        src: url("fonts/chronicle_display_semibold.otf") format("opentype");
+    }
+
+    @font-face {
+        font-family: "Chronicle Display";
+        font-weight: 700;
+        src: url("fonts/chronicle_display_bold.otf") format("opentype");
+    }
+
+/* fonts */
